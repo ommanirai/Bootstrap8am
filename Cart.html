@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!--  bootstrap icon cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        .custom-page-style:hover {
+            font-weight: bold;
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- start of navbar -->
+    <div class="row bg-dark">
+        <div class="col-md-3 p-3 text-center">
+            <a class="navbar-brand text-white fs-3" href="index.html">Navbar</a>
+        </div>
+        <div class="col-md-6 mt-3">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="col-md-3 text-white fs-3 mt-3 d-flex justify-content-around">
+            <a href="Register.html">
+                <i class="bi bi-person-add"></i>
+            </a>
+            <a href="Signin.html">
+                <i class="bi bi-box-arrow-in-right"></i>
+            </a>
+            <a href="Cart.html">
+                <i class="bi bi-cart"></i>
+            </a>
+        </div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link active custom-page-style" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active  custom-page-style" href="Product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active  custom-page-style" href="Blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active  custom-page-style" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active  custom-page-style" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- start of main block -->
+    <div class="container mt-5 shadow-lg p-5 rounded-3">
+        <table class="table table-bordered text-center table-hover table-striped  ">
+            <thead>
+                <tr>
+                    <th>Sno.</th>
+                    <th>Product Image</th>
+                    <th>Product Description</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>
+                        <img src="https://i.gadgets360cdn.com/products/large/moto-db-709x800-1652441656.jpg" alt="" height="150px">
+                    </td>
+                    <td>
+                        <h4>Price: Rs. 20,000</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam enim blanditiis alias repellat soluta corrupti dolor illo eius laborum.</p>
+                    </td>
+                    <td>
+                        <button class="btn btn-warning"> Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>
+                        <img src="https://i.gadgets360cdn.com/products/large/moto-db-709x800-1652441656.jpg" alt="" height="150px">
+                    </td>
+                    <td>
+                        <h4>Price: Rs. 20,000</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam enim blanditiis alias repellat soluta corrupti dolor illo eius laborum.</p>
+                    </td>
+                    <td>
+                        <button class="btn btn-warning"> Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>
+                        <img src="https://i.gadgets360cdn.com/products/large/moto-db-709x800-1652441656.jpg" alt="" height="150px">
+                    </td>
+                    <td>
+                        <h4>Price: Rs. 20,000</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam enim blanditiis alias repellat soluta corrupti dolor illo eius laborum.</p>
+                    </td>
+                    <td>
+                        <button class="btn btn-warning"> Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>
+                        <img src="https://i.gadgets360cdn.com/products/large/moto-db-709x800-1652441656.jpg" alt="" height="150px">
+                    </td>
+                    <td>
+                        <h4>Price: Rs. 20,000</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam enim blanditiis alias repellat soluta corrupti dolor illo eius laborum.</p>
+                    </td>
+                    <td>
+                        <button class="btn btn-warning"> Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>
+                        <img src="https://i.gadgets360cdn.com/products/large/moto-db-709x800-1652441656.jpg" alt="" height="150px">
+                    </td>
+                    <td>
+                        <h4>Price: Rs. 20,000</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam enim blanditiis alias repellat soluta corrupti dolor illo eius laborum.</p>
+                    </td>
+                    <td>
+                        <button class="btn btn-warning"> Remove</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- end of main block -->
+    <!-- start of footer -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="Product.html" class="nav-link px-2 text-body-secondary">Prouct</a></li>
+                <li class="nav-item"><a href="Blog.html" class="nav-link px-2 text-body-secondary">Blog</a></li>
+                <li class="nav-item"><a href="About.html" class="nav-link px-2 text-body-secondary">About</a></li>
+                <li class="nav-item"><a href="Contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; 2023 Company, Inc</p>
+        </footer>
+    </div>
+    <!-- end of footer -->
+
+    <!-- bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
